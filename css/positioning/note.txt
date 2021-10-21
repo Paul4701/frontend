@@ -1,0 +1,16 @@
+postion by default is static 
+in case of static position is executed accoprding to the html 
+same for relative but 
+in realtive positioning you can  change the left and right top bottom 
+it overflows in relative 
+  
+
+
+  absolute position--
+  position absolute will act like there is no other element in the html 
+  it will consider it's parent to the element that has position anything except static
+
+  position fixed----
+  it fixes a element no matter how we scroll its position is the same
+
+  position sticky-- fisrt its like absolute then its sticky

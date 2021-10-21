@@ -1,0 +1,5 @@
+by default box-sizing er value content-box thake 
+amra generally seta k border-box kori 
+
+content-box: ei khetre height and width a kebol conrent included thake. border padding or margin thake na;
+border-box: ei khetre height and width a argin char baki so included thake;
