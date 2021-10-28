@@ -1,0 +1,8 @@
+redux is mainly formed arround three concepts---
+
+let say you go to a cake shop you buy a cake the shopkeeper packets the cake and give it to you
+   
+
+   cakeshop               redux                   purpose
+
+     shop                 store                 holds the state of yours application
