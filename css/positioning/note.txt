@@ -14,3 +14,43 @@ it overflows in relative
   it fixes a element no matter how we scroll its position is the same
 
   position sticky-- fisrt its like absolute then its sticky
+
+
+---------------------
+
+why positioning?
+so that we can understand how the elements will float on the browser
+
+--->
+    a) static
+    b) relative
+    c)absolute
+    d)fixed
+    e)sticky
+
+
+static-->
+by default sob static thake
+
+relative-->
+top left right bottom
+natural 
+
+absolute-->TLBR
+           element positioned
+           natural flow doesn't maintain
+           scrolls 
+fixed-->
+      TLBR
+      element positioned
+      doesn't maintain natiral flow
+      position remains same instead of scrolling
+      doesn't scroll rest same 
+
+sticky--> hybrid of(relative+fixed)
+         natural flow remains 
+         doesn't scroll
+
+   works only within sticky container 
+   never gets out of the container
+    

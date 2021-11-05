@@ -1,0 +1,19 @@
+browser sob html element k akta default display property diye thake ata layout control korar jonno use kora hoy
+
+display-->
+      a)block
+      b)inline
+      c)inline-block 
+      flex,grid 
+
+
+block level elements -> div h1 h2 p 
+inline -> span, a, img
+
+block --> full space occupy
+inline--> required space
+  
+
+  inline   a height width kaj kore na
+
+  inline-block --> atay height width set kora jay

@@ -1,6 +1,6 @@
 .parent{
     background-color: aqua;
-    height: 180px;
+    height: 1080px;
     width:300px;
     position:relative;
 }
@@ -11,14 +11,21 @@
     
 }
 .child-one{
-      
-    position:absolute;
-    /* top:0px; */
- background-color: blueviolet;
+    /* position:sticky; 
+    top:100px; 
+     left:39px; */
+   background-color: blueviolet;
 }
 .child-two{
     background-color: chartreuse;
 }
 .child-three{
     background-color: darkgoldenrod;
+}
+
+.child-four{
+    background-color: rgb(218, 59, 112);
+}
+.child-five{
+    background-color: rgb(132, 223, 48);
 }
