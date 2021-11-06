@@ -1,0 +1,22 @@
+*{
+    /* ai vabe star diye sob element a default styling dewa jay  */
+   margin: 0px;
+   padding: 0px;
+}
+.content{
+    height:70px;
+    width:70px;
+    background-color: aquamarine;
+    border:5px solid black;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+.border{
+    height:70px;
+    width:70px;
+    background-color: aquamarine;
+    /* box-sizing: content-box; */
+    border:5px solid black;
+    margin: 2px;
+}

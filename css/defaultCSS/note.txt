@@ -1,0 +1,6 @@
+kichu properties sobar upor apply hoy tader default a dewa hoy
+
+jemon
+  boxsizing--> content-box,border-box
+  border-box a border padding height width a included hoy
+  
