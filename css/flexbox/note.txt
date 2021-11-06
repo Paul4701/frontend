@@ -1,0 +1,16 @@
+css flexbox (its actually a extended version of display)
+    motive-->
+        a) space distribution
+        b) alignment
+        c) responsiveness
+
+
+Flex Container ---> Flex Items
+
+           axis--> main      &&     cross
+    according to|| flex direction   opposite of flex direction
+
+    PROPERTIES--
+      a) flex Container---> flex-direction(r,c,rr,cr),alignment & justification(justify-content(items k space dei in terms of main axis),align-item(space in terms of cross axis+space between and arround items),align-content(along cross axis kntu akhane space between r arround items dewa jay na),align-content(ata cross axis kntu space between r arround items dewa jay)) 
+      b) flex Items---> flex-grow,flex-shrink 
+       
