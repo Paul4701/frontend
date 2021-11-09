@@ -1,0 +1,19 @@
+ children                   childNode
+returns html collection array represntation
+0 based indexing
+length 
+foreach use kora jabe na karon ata array na array represtation
+
+childNode
+nodelist array represntation but not array
+0 based indexing
+length
+child node a comments text sob return hoy kntu children a  sudhu html  collection return hoy
+atay for each use kora jabe
+
+
+
+
+previous element silbling nextElementSibling  ---> for html element
+
+previous sibling next sibling --> for node

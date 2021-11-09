@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>book my show</h1>
+    <select>
+        <option value="none">none</option>
+        <option value="action">action</option>
+        <option value="romance">romance</option>
+        <option value="komedy">komedy</option>
+    </select>
+    <div class="ticket">
+    <div class="movies">
+        <h3 class="heading">example1</h3>
+        <p class="price" data-category="action">rs-100</p>
+</div>
+<div class="movies">
+    <h3 class="heading">example2</h3>
+    <p class="price" data-category="action">rs-150</p>
+</div>
+<div class="movies">
+    <h3 class="heading">example3</h3>
+    <p class="price" data-category="action">rs-200</p>
+</div>
+<div class="movies">
+    <h3 class="heading">example4</h3>
+    <p class="price" data-category="romance">rs-100</p>
+</div>
+<div class="movies">
+    <h3 class="heading">example5</h3>
+    <p class="price" data-category="romance">rs-100</p>
+</div>
+<div class="movies">
+    <h3 class="heading">example6</h3>
+    <p class="price" data-category="komedy">rs-00</p>
+</div>
+<div class="movies">
+    <h3 class="heading">example7</h3>
+    <p class="price" data-category="komedy">rs-100</p>
+</div>
+<div class="movies">
+    <h3 class="heading">example8</h3>
+    <p class="price" data-category="romance">rs-100</p>
+</div>
+<div class="movies">
+    <h3 class="heading">example9</h3>
+    <p class="price" data-category="action">rs-300</p>
+</div>
+</div>
+</body>
+<script>
+    let select=document.querySelector('select')
+    let allmovie=document.querySelectorAll('.movies')
+    select.addEventListener('change',(e)=>{
+        let selectvalue=select.value;
+        if(selectvalue==="none"){
+          allmovie.forEach((movie)=>{
+              movie.style.display="block"
+          })
+        }else{
+          for(let i=0;i<allmovie.length;i++){
+              let pElem=allmovie[i].querySelector("p");
+              let movieValue=pElem.getAttribute("data-category");
+              if(selectvalue==movieValue){
+                  allmovie[i].style.display="block";
+              }else{
+                allmovie[i].style.display="none";
+              }
+          }
+        }
+    })
+</script>
+</html>

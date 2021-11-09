@@ -1,0 +1,17 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    border:2px solid black;
+    width:200px;
+    height:200px;
+    margin: 4px;
+}
+
+.blue{
+    background-color: aqua;
+}

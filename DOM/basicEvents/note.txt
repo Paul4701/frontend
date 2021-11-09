@@ -1,0 +1,13 @@
+EventListeners--> keyboard,mouse,async data
+
+document ->methods
+    querySelector
+    ionnerText
+    createElement
+    appendChild 
+     
+
+ querySelector vs querySelectorAll
+     querySelectorAll diye amra insert before korte pari 
+
+     tar jonno syntax...parent.insertBefore(curNode,prevNode)
